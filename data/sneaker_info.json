@@ -1,0 +1,20 @@
+{
+  "nike_air_max_90": {
+    "brand": "Nike",
+    "color": "Blanco/Negro/Gris",
+    "price": 120.0,
+    "description": "Zapatilla clásica con amortiguación Air Max visible"
+  },
+  "adidas_ultraboost": {
+    "brand": "Adidas", 
+    "color": "Negro/Blanco",
+    "price": 180.0,
+    "description": "Zapatilla de running con tecnología Boost"
+  },
+  "jordan_1_retro": {
+    "brand": "Nike",
+    "color": "Chicago/Bred/Royal", 
+    "price": 170.0,
+    "description": "Zapatilla de básquetbol clásica de Michael Jordan"
+  }
+}
