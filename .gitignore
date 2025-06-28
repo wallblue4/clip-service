@@ -34,9 +34,6 @@ clipVenv/
 
 # Data
 
-*.db
-*.idx
-*.npy
 
 # Environment
 .env
