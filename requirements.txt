@@ -3,25 +3,23 @@ fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 
-# PyTorch - Compatible con Python 3.13 y Render
-torch>=2.2.0,<2.6.0
-torchvision>=0.17.0,<0.23.0
+# PyTorch - Versiones EXACTAS compatibles
+torch==2.4.1
+torchvision==0.19.1
 --extra-index-url https://download.pytorch.org/whl/cpu
 
 # CLIP
 git+https://github.com/openai/CLIP.git
 
-# Vector search - CPU optimized
-faiss-cpu>=1.7.3,<1.8.0
+# Vector search
+faiss-cpu==1.7.4
 
-# Image processing - Compatible versions
-pillow>=10.0.0,<11.0.0
-numpy>=1.24.0,<2.0.0
+# Image processing
+pillow==10.1.0
+numpy==1.26.4
 
 # Core utilities
-pydantic[email]>=2.5.0,<3.0.0
-pydantic-settings>=2.1.0,<3.0.0
-python-dateutil>=2.8.0,<3.0.0
-
-# HTTP client
-httpx>=0.25.0,<1.0.0
+pydantic[email]==2.5.0
+pydantic-settings==2.1.0
+python-dateutil==2.8.2
+httpx==0.25.2
