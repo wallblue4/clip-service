@@ -1,25 +1,20 @@
-# FastAPI - Core
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-python-multipart==0.0.6
+fastapi
+uvicorn[standard]
+python-multipart
 
-# PyTorch - Versiones EXACTAS compatibles
-torch==2.4.1
-torchvision==0.19.1
---extra-index-url https://download.pytorch.org/whl/cpu
+# PyTorch CPU - auto resolver
+torch --index-url https://download.pytorch.org/whl/cpu
+torchvision --index-url https://download.pytorch.org/whl/cpu
 
 # CLIP
 git+https://github.com/openai/CLIP.git
 
 # Vector search
-faiss-cpu==1.7.4
+faiss-cpu
 
-# Image processing
-pillow==10.1.0
-numpy==1.26.4
-
-# Core utilities
-pydantic[email]==2.5.0
-pydantic-settings==2.1.0
-python-dateutil==2.8.2
-httpx==0.25.2
+# Básicos
+pillow
+numpy
+pydantic[email]
+pydantic-settings
+httpx
