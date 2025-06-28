@@ -33,8 +33,7 @@ clipVenv/
 *.swo
 
 # Data
-data/sneaker_database/
-data/dataset/
+
 *.db
 *.idx
 *.npy
